@@ -328,6 +328,17 @@ module.exports = function (grunt) {
         'sass:dist',
         'copy:dist'
       ]
+    },
+
+    cdn: {
+      options: {
+        cdn: '/wedding/'
+      },
+      dist: {
+        cwd: '<%= yeoman.dist %>',
+        dest: '<%= yeoman.dist %>',
+        src: ['*.html', '**/*.css']
+      }
     }
   });
 
@@ -381,7 +392,8 @@ module.exports = function (grunt) {
     'svgmin',
     'filerev',
     'usemin',
-    'htmlmin'
+    'cdn'//,
+    //'htmlmin'
     ]);
 
   grunt.registerTask('deploy', [
