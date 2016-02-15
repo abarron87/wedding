@@ -1,0 +1,25 @@
+// Our variables
+$base-font-family: 'Merriweather', serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #333;
+
+$bs-xs:            480px;
+$bs-sm:            768px;
+$bs-md:            992px;
+$bs-lg:            1200px;
+
+$bs: 480px 768px 992px 1200px;
+$min-max: 'min-width' 'max-width';
+
+$xs: 1;
+$sm: 2;
+$md: 3;
+$lg: 4;
+
+$min: 1;
+$max: 2;

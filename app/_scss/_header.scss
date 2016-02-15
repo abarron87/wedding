@@ -1,0 +1,30 @@
+header {
+    background-color: #B1A191;
+    background: url(/assets/img/savethedate2.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 270px;
+    //position: relative;
+    position: absolute;
+    left: 0;
+    width: 100%;
+
+    .container {
+        display: none;
+    }
+}
+
+@include media-query($min, $sm){
+    #wrapper {
+        position: relative;
+    }
+
+    header {
+        //width: 750px;
+    }
+}
+
+@include media-query($min, $md){
+    header {
+        min-height: 400px;
+    }
+}
