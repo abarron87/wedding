@@ -27,7 +27,7 @@
 //;
 
 html, body {
-    width: 100vw;
+    //width: 100vw;
     text-align: center;
 }
 
@@ -42,7 +42,7 @@ body {
     font-family: $base-font-family;
     background: #CCC1AF;
     background-color: #ccc1af;
-    background-image: url(http://www.transparenttextures.com/patterns/asfalt-dark.png);
+    background-image: url(/assets/img/asfalt-dark.png);
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     font-weight: 300;
 }

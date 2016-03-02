@@ -41,7 +41,10 @@
     }
 }
 
-
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse {
+    max-height: none;
+}
 
 .navbar-default .navbar-collapse {
     border: none;
@@ -58,7 +61,8 @@
 
 .navbar-collapse {
     text-align: center;
-    background: #fff;
+    //background: #fff;
+    background: url(/assets/img/img-noise-50x50.png) repeat 0 0 #fff;
 }
 
 .navbar-toggle {
@@ -98,12 +102,12 @@
         position: relative;
     }
 
-
 }
 
 @include media-query($min, $md){
     .navbar {
         margin-bottom: 20px;
+        //transform: translateX(8px);
 
         &.navbar-fixed-top {
             padding: 0;
@@ -159,7 +163,7 @@
         }
 
         > a {
-            font-size: 22px;
+            font-size: 19px;
         }
     }
 
