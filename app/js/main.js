@@ -17,17 +17,12 @@ $(function() {
         if($elem.scrollTop() >= navOffset){
             if(!nav.hasClass(fixedClass)) {
                 nav.addClass(fixedClass);
-                console.log("adding fixed class");
             }
         }
         else{
             nav.removeClass(fixedClass);
-            console.log("removing fixed class");
         }
-
-        //$('html, body').stop().animate({
-        //    scrollTop: $($anchor.attr('href')).offset().top
-        //}, 1500, 'easeInOutExpo');
+        
         event.preventDefault();
     });
 });
