@@ -22,7 +22,7 @@ $(function() {
         else{
             nav.removeClass(fixedClass);
         }
-        
+
         event.preventDefault();
     });
 });
