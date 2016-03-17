@@ -69,6 +69,10 @@ div > img {
     margin: 0 auto;
 }
 
+small {
+    font-size: 70%;
+}
+
 
 @include media-query($max, $xs){
 
